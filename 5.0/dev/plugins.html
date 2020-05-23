@@ -141,7 +141,7 @@
 <li><strong>path:</strong> the current file, mutable file path. e. g. <code>some/file.coffee</code> -&gt; <code>some/file.coffee.js</code> <em>This path is mutable and may not actually exist.</em></li>
 <li><strong>originalPath:</strong> the original, unmutated path</li>
 <li><strong>encodings:</strong> A mutable, keyed object where the keys are a valid encoding type (&#39;gzip&#39;, &#39;compress&#39;, &#39;br&#39;, etc.) and the values are the encoded content. Encoded content should be stored here and not resolved using <code>next(null, encodedContent)</code></li>
-<li><strong>type:</strong> the pattern used to match the file</li>
+<li><strong>type:</strong> determines how to include a file, when serving</li>
 </ul>
 </li>
 <li><strong><code>next</code></strong> function to be called when preprocessing is complete, should be called as <code>next(null, processedContent)</code> or <code>next(error)</code></li>
