@@ -1,5 +1,41 @@
 editButton: false
 
+## [5.0.9](https://github.com/karma-runner/karma/compare/v5.0.8...v5.0.9) (2020-05-19)
+
+
+### Bug Fixes
+
+* **dependencies:** update to safe version of http-proxy ([#3519](https://github.com/karma-runner/karma/issues/3519)) ([00347bb](https://github.com/karma-runner/karma/commit/00347bb204c8c87e1096679af4634032d6600b67)), closes [#3510](https://github.com/karma-runner/karma/issues/3510)
+
+## [5.0.8](https://github.com/karma-runner/karma/compare/v5.0.7...v5.0.8) (2020-05-18)
+
+
+### Bug Fixes
+
+* **dependencies:** update and unlock socket.io dependency ([#3513](https://github.com/karma-runner/karma/issues/3513)) ([b60391f](https://github.com/karma-runner/karma/commit/b60391fbddcfa5f8c50b6ac6e3c8d8d845258a56))
+* **dependencies:** update to latest log4js major ([#3514](https://github.com/karma-runner/karma/issues/3514)) ([47f1cb2](https://github.com/karma-runner/karma/commit/47f1cb222ee0921defbe313b694da3288a894fec))
+
+## [5.0.7](https://github.com/karma-runner/karma/compare/v5.0.6...v5.0.7) (2020-05-16)
+
+
+### Bug Fixes
+
+* detect type for URLs with query parameter or fragment identifier ([#3509](https://github.com/karma-runner/karma/issues/3509)) ([f399063](https://github.com/karma-runner/karma/commit/f399063d1bc8954dba74166ea3dabef2fe376ae4)), closes [#3497](https://github.com/karma-runner/karma/issues/3497)
+
+## [5.0.6](https://github.com/karma-runner/karma/compare/v5.0.5...v5.0.6) (2020-05-16)
+
+
+### Bug Fixes
+
+* **dependencies:** update production dependencies ([#3512](https://github.com/karma-runner/karma/issues/3512)) ([0cd696f](https://github.com/karma-runner/karma/commit/0cd696fe91f2616f6646ea5c67cc44b49d7e941a))
+
+## [5.0.5](https://github.com/karma-runner/karma/compare/v5.0.4...v5.0.5) (2020-05-07)
+
+
+### Bug Fixes
+
+* **cli:** restore command line help contents ([#3502](https://github.com/karma-runner/karma/issues/3502)) ([e99da31](https://github.com/karma-runner/karma/commit/e99da316a2d3f875f45baf4e985e521a2fcc755f)), closes [#3474](https://github.com/karma-runner/karma/issues/3474)
+
 ## [5.0.4](https://github.com/karma-runner/karma/compare/v5.0.3...v5.0.4) (2020-04-30)
 
 
